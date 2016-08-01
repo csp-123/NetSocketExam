@@ -54,7 +54,6 @@ class ReadByGet extends Thread {
 			String line = null;
 			StringBuffer sb = new StringBuffer();
 
-			// ∫∫µ√–≈œ¢,13.910,14.550,13.500,14.040,13.270
 			while ((line = br.readLine()) != null) {
 				sb.append(line);
 			}
