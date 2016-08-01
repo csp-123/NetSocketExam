@@ -82,12 +82,15 @@ class ReadByGet extends Thread {
 
 		JsonObject object = new JsonObject();
 		
+		String name = "name";
+		
 		object.addProperty("name", str2[0]);
 		object.addProperty("open", Double.parseDouble(str2[1]));
 		object.addProperty("close", Double.parseDouble(str2[2]));
 		object.addProperty("current", Double.parseDouble(str2[3]));
 		object.addProperty("high", Double.parseDouble(str2[4]));
 		object.addProperty("low", Double.parseDouble(str2[5]));
+		
 		
 		//System.out.println(object);
 		
