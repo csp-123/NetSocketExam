@@ -1,4 +1,4 @@
-1.±àÒë
+1.ç¼–è¯‘
 mvn clean compile
-2.ÔËĞĞ
+2.è¿è¡Œ    æ–‡ä»¶æ”¾åœ¨å·¥ç¨‹ç›®å½•ä¸‹
 mvn exec:java -Dexec.mainClass="com.hand.Exam_3" -Dexec.args="arg0 arg1 arg2"
